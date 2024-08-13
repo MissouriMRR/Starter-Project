@@ -12,4 +12,4 @@ MAVSDK is being swapped for dronekit in our code this year due to troubles with 
 
 [Flight Docs](https://missourimrr.github.io/docs/flight/) has some useful information to reference with asyncio and process to using the drone.
 
-[DroneKit]([http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com](https://github.com/dronekit)) has information about the python library and the simulator, so reference it and its examples when needing help.
+[DroneKit](https://github.com/dronekit) has information about the python library and the simulator, so reference it and its examples when needing help.
