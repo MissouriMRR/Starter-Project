@@ -1,6 +1,4 @@
-# read the image into a numpy array using matplot lib
-
-#reshape the array into each pixel's color using numpy
+# read the image into a numpy array using cv2
 
 #Setting up cv2 for clustering and masking the photo
 
