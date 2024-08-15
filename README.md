@@ -3,8 +3,8 @@ This is a Github repo for starter projects for new members.
 
 To get started coding make sure you have a access to Linux, ubunto 22 is recommended, but others will most likely work. This is most likely through a virtual machine on your windows device. If you don't have a Virtual machine set up pelase navigate [here](https://missourimrr.github.io/docs/virtual_machines/).
 
-If you have never used git or github this is where you should start.
-First steps before you start coding. This repo needs to be cloned to your device. That means that the copies of the files are downloaded on your computer to be edited that you can then later upload back up to the repo to share with others. The repo means repository it is just the centralized location where we store and share our code.
+### First steps before you start coding
+Before getting the code your device needs to be setup. If you have ran these commands feel free to skip them.
 
 First thing you need to do is ensure python 3.10 is installed open a terminal in Linux and type in
 ```
@@ -39,6 +39,8 @@ cat id_rsa.pub
 ```
 and copy the output. Then navigate to Github click on your profile pic in the top right and navigate to settings then ssh and gpg keys. add a new ssh key give it a title and paste what you copied in the key section.
 
+### Finally starting on coding
+This repo needs to be cloned to your device. That means that the copies of the files are downloaded on your computer to be edited that you can then later upload back up to the repo to share with others. The repo means repository it is just the centralized location where we store and share our code.
 Next is cloning the repo. Select the green <>Code button for this repo, and choose clone with ssh and copy it. Then in a terminal run the following command with what you copied.
 ```
 git clone [what you copied (remove the square braces)]
