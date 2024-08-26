@@ -1,19 +1,29 @@
-###########################################   --Do not edit--  ########################################################
+"""
+Waypoint starter project for dronekit
+"""
+
+###########################################   --Do not edit--  ####################################
 
 # Everything here will roughly be similar everytime when booting the drone in other code
 
-import asyncio
-from mavsdk import System
 import time
-from dronekit import connect, VehicleMode, LocationGlobalRelative
+from dronekit import connect, Vehicle, VehicleMode, LocationGlobalRelative
 
 
-async def run():  ## definition of an asynchronous function called run
-    connection_string = "tcp:127.0.0.1:5762"
+def run() -> Vehicle:  ## definition of an asynchronous function called run
+    """
+    initializes the drone
+
+    Returns
+    -------
+    The drone whish is type Vehicle to use for movement
+    """
+
+    connection_string: str = "tcp:127.0.0.1:5762"
 
     # Connect to the Vehicle
     print("Connecting to vehicle on: %s" % connection_string)
-    drone = connect(connection_string, wait_ready=True)
+    drone: Vehicle = connect(connection_string, wait_ready=True)
 
     print("Basic pre-arm checks")
     # Don't try to arm until autopilot is ready
@@ -37,12 +47,13 @@ async def run():  ## definition of an asynchronous function called run
     return drone
 
 
-#######################################################################################################################
+###################################################################################################
 
 
-###########################################  -- Code Here -- ##########################################################
+###########################################  -- Code Here -- ######################################
 
-# Create an async function below for the take off of the drone, and moving to the different waypoints.
+# Create an async function below for the take off of the drone, and moving to the different
+# waypoints.
 # The async function above can be used as an example.
 # Example Coordinates
 #    (37.94852048112047, -91.78427643078165)
