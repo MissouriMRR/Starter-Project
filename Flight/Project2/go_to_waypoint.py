@@ -4,14 +4,11 @@
 
 import asyncio
 from mavsdk import System
-import dronekit_sitl
 import time
 from dronekit import connect, VehicleMode, LocationGlobalRelative
 
 async def run():                                        ## definition of an asynchronous function called run
-    
-    sitl = dronekit_sitl.start_default()
-    connection_string = sitl.connection_string()
+    connection_string = "tcp:127.0.0.1:5762"
 
     # Connect to the Vehicle
     print('Connecting to vehicle on: %s' % connection_string)
