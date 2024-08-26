@@ -1,5 +1,5 @@
 # Project 1
-This project covers numpy, matplot lib, and open cv python libraries for computer vision. This project covers how to vectorize, cluster, and mask different colors for an image. It covers this by using a picture of a salad and setting up the photo to mask the red pixels of the tomatoes.
+This project makes tomatoes blue it does this by isolating the tomatoes based on color and then changing those pixels color. This covers numpy, matplot lib, and open cv python libraries for computer vision. This project covers how to vectorize, cluster, and mask different colors for an image. Good luck turning those tomatoes blue.
 
 ## Useful Knowledge
 
