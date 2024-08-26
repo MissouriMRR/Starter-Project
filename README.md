@@ -8,9 +8,9 @@ Before getting the code your device needs to be setup. If you have ran these com
 
 First thing you need to do is ensure python 3.10 is installed open a terminal in Linux and type in
 ```
-sudo apt install software-properties-common -y 
-sudo add-apt-repository ppa:deadsnakes/ppa 
-sudo apt install python3.10  
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.10
 ```
 This installs python 3.10 and ensures it will be used when running our code.
 You can verify with
