@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
+r"""
 This is one of the Intro Projects for the Missouri S&T Multirotor Design Team.
 The link to the project can be found here:
 https://missourimrr.github.io/docs/vision/opencv/blue_tomatoes/
@@ -14,7 +14,7 @@ this image blue. The requirements are below.
 ##############################################################################
 # Read the image into a numpy array using cv2, setting up cv2 for clustering #
 # and masking the photo use cv2 to mask all the reds in the tomato and turn  #
-# those tomatoes blue output the image and save it                           #
+# those tomatoes blue. Output the image and save it                          #
 ##############################################################################
 
 ## Imports
@@ -22,7 +22,7 @@ this image blue. The requirements are below.
 import os
 import logging
 # External
-import cv2 # OpenCV
+import cv2 # opencv-python
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
